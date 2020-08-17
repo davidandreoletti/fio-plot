@@ -188,7 +188,9 @@ Creating a line chart from different benchmark runs in a single folder
 The same result but if you want markers to help distinguish between lines:
 
     ./fio_plot -i <benchmark_data_folder>  -T "Test" -g -r randread -t iops lat -d 1 8 16 -n 1 --enable--markers
-    
+
+### Comparing two benchmarks in a single chart
+
 Create a line chart based on data from two different folders (but the same benchmark parameters)     
 
     ./fio_plot -i <benchmark_data_folder A> <benchmark_data_folder B>  -T "Test" -g -r randread -t iops lat -d 8 -n 1
